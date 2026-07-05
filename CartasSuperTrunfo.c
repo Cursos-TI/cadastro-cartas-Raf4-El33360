@@ -29,6 +29,17 @@ int main(){
     printf("Digite o nome da cidade: \n");
     scanf("%s", &nomeCidade);
 
+     densidadePopulacional = ((float)populacao / area);
+    PIBpc = (PIB / (float)populacao);
+
+    printf("Densidade Populacional: %.2f\n", densidadePopulacional);
+    printf("PIB per capita: %.2f\n", PIBpc);
+
+    scanf("%f", &densidadePopulacional);
+    scanf("%f", &PIBpc);
+
+    
+
     return 0;
 
 
